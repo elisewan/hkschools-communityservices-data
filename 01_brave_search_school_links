@@ -62,7 +62,7 @@
     "    school_names = df_in.iloc[:, 0].dropna().tolist()\n",
     "\n",
     "    all_data = []\n",
-    "    print(f\"\\n🚀 Fetching top results for {len(school_names)} schools...\\n\")\n",
+    "    print(f\"\\n Fetching top results for {len(school_names)} schools...\\n\")\n",
     "\n",
     "    for i, name in enumerate(school_names):\n",
     "        name_str = str(name).strip()\n",
@@ -81,7 +81,7 @@
     "    final_df = pd.DataFrame(all_data)\n",
     "    final_df.to_excel(\"School_First_Links.xlsx\", index=False)\n",
     "    files.download(\"School_First_Links.xlsx\")\n",
-    "    print(\"\\n🎉 Process complete!\")"
+    "    print(\"\\n Process complete!\")"
    ]
   }
  ],
