@@ -1,4 +1,4 @@
-# HK Data Utilities
+# HK Primary and Secondary School Emails - Data Utilities
 
 A collection of Python data acquisition tools for Hong Kong public data sources.
 
